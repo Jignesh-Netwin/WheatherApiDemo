@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3383A61B1B84863400F209A5 /* TempViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3383A6191B84863400F209A5 /* TempViewController.m */; };
+		3383A61C1B84863400F209A5 /* TempViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3383A61A1B84863400F209A5 /* TempViewController.xib */; };
+		3383A6221B84909500F209A5 /* WebServiceAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 3383A6211B84909500F209A5 /* WebServiceAPI.m */; };
+		33CBAF5F1B83340300E0EBE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CBAF5E1B83340300E0EBE5 /* main.m */; };
+		33CBAF621B83340300E0EBE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CBAF611B83340300E0EBE5 /* AppDelegate.m */; };
+		33CBAF651B83340300E0EBE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CBAF641B83340300E0EBE5 /* ViewController.m */; };
+		33CBAF6A1B83340300E0EBE5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33CBAF691B83340300E0EBE5 /* Images.xcassets */; };
+		33CBAF791B83340300E0EBE5 /* WheatherApiDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CBAF781B83340300E0EBE5 /* WheatherApiDemoTests.m */; };
+		33CBAF831B83343300E0EBE5 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33CBAF821B83343300E0EBE5 /* ViewController.xib */; };
+		33CBAF871B83555000E0EBE5 /* CityViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CBAF851B83555000E0EBE5 /* CityViewViewController.m */; };
+		33CBAF881B83555000E0EBE5 /* CityViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33CBAF861B83555000E0EBE5 /* CityViewViewController.xib */; };
+		33CBAF8D1B835BAE00E0EBE5 /* APITableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CBAF8B1B835BAE00E0EBE5 /* APITableViewCell.m */; };
+		33CBAF8E1B835BAE00E0EBE5 /* APITableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33CBAF8C1B835BAE00E0EBE5 /* APITableViewCell.xib */; };
+		33CF24ED1B859AE800B876AB /* tempObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CF24EC1B859AE800B876AB /* tempObject.m */; };
+		33CF24FF1B85E5AE00B876AB /* UIBAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CF24FE1B85E5AE00B876AB /* UIBAlertView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		33CF25001B85E5AE00B876AB /* UIBAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CF24FE1B85E5AE00B876AB /* UIBAlertView.m */; };
+		33CF25031B85E95B00B876AB /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CF25021B85E95B00B876AB /* MBProgressHUD.m */; };
+		33CF25041B85E95B00B876AB /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CF25021B85E95B00B876AB /* MBProgressHUD.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33CBAF731B83340300E0EBE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33CBAF511B83340300E0EBE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33CBAF581B83340300E0EBE5;
+			remoteInfo = WheatherApiDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3383A6171B8483E500F209A5 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		3383A6181B84863400F209A5 /* TempViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TempViewController.h; path = WheatherApiDemo/TempViewController.h; sourceTree = "<group>"; };
+		3383A6191B84863400F209A5 /* TempViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TempViewController.m; path = WheatherApiDemo/TempViewController.m; sourceTree = "<group>"; };
+		3383A61A1B84863400F209A5 /* TempViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TempViewController.xib; path = WheatherApiDemo/TempViewController.xib; sourceTree = "<group>"; };
+		3383A6201B84909500F209A5 /* WebServiceAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServiceAPI.h; sourceTree = "<group>"; };
+		3383A6211B84909500F209A5 /* WebServiceAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServiceAPI.m; sourceTree = "<group>"; };
+		33CBAF591B83340300E0EBE5 /* WheatherApiDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WheatherApiDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33CBAF5D1B83340300E0EBE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33CBAF5E1B83340300E0EBE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33CBAF601B83340300E0EBE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		33CBAF611B83340300E0EBE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		33CBAF631B83340300E0EBE5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = WheatherApiDemo/ViewController.h; sourceTree = "<group>"; };
+		33CBAF641B83340300E0EBE5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = WheatherApiDemo/ViewController.m; sourceTree = "<group>"; };
+		33CBAF691B83340300E0EBE5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		33CBAF6C1B83340300E0EBE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		33CBAF721B83340300E0EBE5 /* WheatherApiDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WheatherApiDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33CBAF771B83340300E0EBE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33CBAF781B83340300E0EBE5 /* WheatherApiDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WheatherApiDemoTests.m; sourceTree = "<group>"; };
+		33CBAF821B83343300E0EBE5 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ViewController.xib; path = WheatherApiDemo/ViewController.xib; sourceTree = "<group>"; };
+		33CBAF841B83555000E0EBE5 /* CityViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CityViewViewController.h; path = WheatherApiDemo/CityViewViewController.h; sourceTree = "<group>"; };
+		33CBAF851B83555000E0EBE5 /* CityViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CityViewViewController.m; path = WheatherApiDemo/CityViewViewController.m; sourceTree = "<group>"; };
+		33CBAF861B83555000E0EBE5 /* CityViewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CityViewViewController.xib; path = WheatherApiDemo/CityViewViewController.xib; sourceTree = "<group>"; };
+		33CBAF8A1B835BAE00E0EBE5 /* APITableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APITableViewCell.h; path = WheatherApiDemo/APITableViewCell.h; sourceTree = "<group>"; };
+		33CBAF8B1B835BAE00E0EBE5 /* APITableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APITableViewCell.m; path = WheatherApiDemo/APITableViewCell.m; sourceTree = "<group>"; };
+		33CBAF8C1B835BAE00E0EBE5 /* APITableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = APITableViewCell.xib; path = WheatherApiDemo/APITableViewCell.xib; sourceTree = "<group>"; };
+		33CF24EB1B859AE800B876AB /* tempObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tempObject.h; sourceTree = "<group>"; };
+		33CF24EC1B859AE800B876AB /* tempObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tempObject.m; sourceTree = "<group>"; };
+		33CF24FD1B85E5AE00B876AB /* UIBAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIBAlertView.h; sourceTree = "<group>"; };
+		33CF24FE1B85E5AE00B876AB /* UIBAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIBAlertView.m; sourceTree = "<group>"; };
+		33CF25011B85E95B00B876AB /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		33CF25021B85E95B00B876AB /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33CBAF561B83340300E0EBE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33CBAF6F1B83340300E0EBE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33CBAF501B83340300E0EBE5 = {
+			isa = PBXGroup;
+			children = (
+				33CF25061B85FFB100B876AB /* ViewControllers */,
+				33CF25051B85FF9D00B876AB /* HelperClasses */,
+				33CBAF5B1B83340300E0EBE5 /* WheatherApiDemo */,
+				33CBAF751B83340300E0EBE5 /* WheatherApiDemoTests */,
+				33CBAF5A1B83340300E0EBE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33CBAF5A1B83340300E0EBE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33CBAF591B83340300E0EBE5 /* WheatherApiDemo.app */,
+				33CBAF721B83340300E0EBE5 /* WheatherApiDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33CBAF5B1B83340300E0EBE5 /* WheatherApiDemo */ = {
+			isa = PBXGroup;
+			children = (
+				33CBAF601B83340300E0EBE5 /* AppDelegate.h */,
+				33CBAF611B83340300E0EBE5 /* AppDelegate.m */,
+				33CBAF691B83340300E0EBE5 /* Images.xcassets */,
+				33CBAF6B1B83340300E0EBE5 /* LaunchScreen.xib */,
+				33CBAF5C1B83340300E0EBE5 /* Supporting Files */,
+				3383A6171B8483E500F209A5 /* Constant.h */,
+			);
+			path = WheatherApiDemo;
+			sourceTree = "<group>";
+		};
+		33CBAF5C1B83340300E0EBE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33CBAF5D1B83340300E0EBE5 /* Info.plist */,
+				33CBAF5E1B83340300E0EBE5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33CBAF751B83340300E0EBE5 /* WheatherApiDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				33CBAF781B83340300E0EBE5 /* WheatherApiDemoTests.m */,
+				33CBAF761B83340300E0EBE5 /* Supporting Files */,
+			);
+			path = WheatherApiDemoTests;
+			sourceTree = "<group>";
+		};
+		33CBAF761B83340300E0EBE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33CBAF771B83340300E0EBE5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33CF25051B85FF9D00B876AB /* HelperClasses */ = {
+			isa = PBXGroup;
+			children = (
+				33CF24FD1B85E5AE00B876AB /* UIBAlertView.h */,
+				33CF24FE1B85E5AE00B876AB /* UIBAlertView.m */,
+				33CF25011B85E95B00B876AB /* MBProgressHUD.h */,
+				33CF25021B85E95B00B876AB /* MBProgressHUD.m */,
+				33CF24EB1B859AE800B876AB /* tempObject.h */,
+				33CF24EC1B859AE800B876AB /* tempObject.m */,
+				3383A6201B84909500F209A5 /* WebServiceAPI.h */,
+				3383A6211B84909500F209A5 /* WebServiceAPI.m */,
+			);
+			name = HelperClasses;
+			sourceTree = "<group>";
+		};
+		33CF25061B85FFB100B876AB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				33CBAF841B83555000E0EBE5 /* CityViewViewController.h */,
+				33CBAF851B83555000E0EBE5 /* CityViewViewController.m */,
+				33CBAF861B83555000E0EBE5 /* CityViewViewController.xib */,
+				33CBAF8A1B835BAE00E0EBE5 /* APITableViewCell.h */,
+				33CBAF8B1B835BAE00E0EBE5 /* APITableViewCell.m */,
+				33CBAF8C1B835BAE00E0EBE5 /* APITableViewCell.xib */,
+				3383A6181B84863400F209A5 /* TempViewController.h */,
+				3383A6191B84863400F209A5 /* TempViewController.m */,
+				3383A61A1B84863400F209A5 /* TempViewController.xib */,
+				33CBAF631B83340300E0EBE5 /* ViewController.h */,
+				33CBAF641B83340300E0EBE5 /* ViewController.m */,
+				33CBAF821B83343300E0EBE5 /* ViewController.xib */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33CBAF581B83340300E0EBE5 /* WheatherApiDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33CBAF7C1B83340300E0EBE5 /* Build configuration list for PBXNativeTarget "WheatherApiDemo" */;
+			buildPhases = (
+				33CBAF551B83340300E0EBE5 /* Sources */,
+				33CBAF561B83340300E0EBE5 /* Frameworks */,
+				33CBAF571B83340300E0EBE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WheatherApiDemo;
+			productName = WheatherApiDemo;
+			productReference = 33CBAF591B83340300E0EBE5 /* WheatherApiDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33CBAF711B83340300E0EBE5 /* WheatherApiDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33CBAF7F1B83340300E0EBE5 /* Build configuration list for PBXNativeTarget "WheatherApiDemoTests" */;
+			buildPhases = (
+				33CBAF6E1B83340300E0EBE5 /* Sources */,
+				33CBAF6F1B83340300E0EBE5 /* Frameworks */,
+				33CBAF701B83340300E0EBE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33CBAF741B83340300E0EBE5 /* PBXTargetDependency */,
+			);
+			name = WheatherApiDemoTests;
+			productName = WheatherApiDemoTests;
+			productReference = 33CBAF721B83340300E0EBE5 /* WheatherApiDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33CBAF511B83340300E0EBE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Jignesh;
+				TargetAttributes = {
+					33CBAF581B83340300E0EBE5 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					33CBAF711B83340300E0EBE5 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 33CBAF581B83340300E0EBE5;
+					};
+				};
+			};
+			buildConfigurationList = 33CBAF541B83340300E0EBE5 /* Build configuration list for PBXProject "WheatherApiDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33CBAF501B83340300E0EBE5;
+			productRefGroup = 33CBAF5A1B83340300E0EBE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33CBAF581B83340300E0EBE5 /* WheatherApiDemo */,
+				33CBAF711B83340300E0EBE5 /* WheatherApiDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33CBAF571B83340300E0EBE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3383A61C1B84863400F209A5 /* TempViewController.xib in Resources */,
+				33CBAF8E1B835BAE00E0EBE5 /* APITableViewCell.xib in Resources */,
+				33CBAF831B83343300E0EBE5 /* ViewController.xib in Resources */,
+				33CBAF881B83555000E0EBE5 /* CityViewViewController.xib in Resources */,
+				33CBAF6A1B83340300E0EBE5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33CBAF701B83340300E0EBE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33CBAF551B83340300E0EBE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33CF24ED1B859AE800B876AB /* tempObject.m in Sources */,
+				33CBAF8D1B835BAE00E0EBE5 /* APITableViewCell.m in Sources */,
+				33CBAF651B83340300E0EBE5 /* ViewController.m in Sources */,
+				33CF24FF1B85E5AE00B876AB /* UIBAlertView.m in Sources */,
+				3383A61B1B84863400F209A5 /* TempViewController.m in Sources */,
+				3383A6221B84909500F209A5 /* WebServiceAPI.m in Sources */,
+				33CBAF621B83340300E0EBE5 /* AppDelegate.m in Sources */,
+				33CF25031B85E95B00B876AB /* MBProgressHUD.m in Sources */,
+				33CBAF871B83555000E0EBE5 /* CityViewViewController.m in Sources */,
+				33CBAF5F1B83340300E0EBE5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33CBAF6E1B83340300E0EBE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33CF25001B85E5AE00B876AB /* UIBAlertView.m in Sources */,
+				33CF25041B85E95B00B876AB /* MBProgressHUD.m in Sources */,
+				33CBAF791B83340300E0EBE5 /* WheatherApiDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33CBAF741B83340300E0EBE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33CBAF581B83340300E0EBE5 /* WheatherApiDemo */;
+			targetProxy = 33CBAF731B83340300E0EBE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33CBAF6B1B83340300E0EBE5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33CBAF6C1B83340300E0EBE5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33CBAF7A1B83340300E0EBE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		33CBAF7B1B83340300E0EBE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33CBAF7D1B83340300E0EBE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WheatherApiDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		33CBAF7E1B83340300E0EBE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WheatherApiDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		33CBAF801B83340300E0EBE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WheatherApiDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WheatherApiDemo.app/WheatherApiDemo";
+			};
+			name = Debug;
+		};
+		33CBAF811B83340300E0EBE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WheatherApiDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WheatherApiDemo.app/WheatherApiDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33CBAF541B83340300E0EBE5 /* Build configuration list for PBXProject "WheatherApiDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33CBAF7A1B83340300E0EBE5 /* Debug */,
+				33CBAF7B1B83340300E0EBE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33CBAF7C1B83340300E0EBE5 /* Build configuration list for PBXNativeTarget "WheatherApiDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33CBAF7D1B83340300E0EBE5 /* Debug */,
+				33CBAF7E1B83340300E0EBE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33CBAF7F1B83340300E0EBE5 /* Build configuration list for PBXNativeTarget "WheatherApiDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33CBAF801B83340300E0EBE5 /* Debug */,
+				33CBAF811B83340300E0EBE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33CBAF511B83340300E0EBE5 /* Project object */;
+}
